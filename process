@@ -1,0 +1,94 @@
+Start Installation...
+
+Partition
+
+Partition -> Manual
+
+- Partition disk-
+
+click on -> SCSI33...........
+create New ..........
+- Partition disk -
+
+Create boot space 1 GB
+
+pri/log xxx GB FREE SPACE
+Create a New partition
+New partition size
+1 GB
+continue
+- Partition disk-
+
+Type for the new partition
+Primary
+Location for the new partition
+Beginning
+Partition Settings :
+mount point: /
+Mount point for this partition:
+/boot
+Partition settings :
+done setting up the partition
+- Partition disk -
+
+Create swap space 2 GB
+
+pri/log xxx GB FREE SPACE
+Create a New partition
+New partition size
+2 GB
+continue
+- Partition disk-
+
+Type for the new partition
+Primary
+Location for the new partition
+Beginning
+Partition Settings :
+Use as : Ext4 journaling file system
+How to use this partition :
+swap area
+Partition settings :
+done setting up the partition
+ - Partition disk -
+
+Logical volume manager configure the ....
+write the changes to disk and configure LVM.
+yes
+LVM configuration action
+create volume group
+vg_root
+click on continue
+Device for the new volume group :
+[*] /dev/sda free#1 .......... FREE SPACE
+click on continue
+Finish
+- Partition disk -
+
+Logical volume manager configure the ....
+click on vg_root ............. ()
+Logical Volume name
+lv_root
+continue
+Logical Volume size
+continue
+LVM Configuration action:
+finish
+LVM VG vg_root, LV lv_root ................
+click on #1 .....................
+Partition settings :
+use as : do not use (click this)
+how to use this partition
+Ext 4 ...........
+Partition settings :
+Mount Point : none (Enter click)
+Mount Point for the partition :
+/ - the boot file system.
+Partition settings :
+Done setting up the partition
+ - Partition disk -
+
+#1 ...... f ext4        /
+(click) Finish partitioning and write changes to disk.
+Write the changes to disk?
+yes
